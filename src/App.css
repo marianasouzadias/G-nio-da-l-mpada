@@ -1,0 +1,58 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  height: 100vh;
+  width: 100vw;
+  color: #fff;
+  font-family: "Sevillana", cursive;
+  position: relative;
+}
+.app .palacio {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+}
+.app .sobreposicao {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.app .sobreposicao p {
+  font-size: 62px;
+  white-space: nowrap;
+}
+.app .sobreposicao .açao {
+  display: inline-block;
+  position: relative;
+  top: -40px;
+}
+.app .sobreposicao button {
+  background-color: #007BFF;
+  font-family: "Sevillana";
+  font-size: 40px;
+  width: 400px;
+  height: 71px;
+  padding: 9px;
+  border-radius: 50px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.app .sobreposicao button:hover {
+  background-color: #0056b3;
+}/*# sourceMappingURL=App.css.map */
